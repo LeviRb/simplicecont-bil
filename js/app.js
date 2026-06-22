@@ -33,7 +33,7 @@ if (socios) {
     });
 }
 
-// FATURAMENTO
+// ParteFATURAMENTO
 const faturamento = document.getElementById("faturamento");
 
 if (faturamento) {
