@@ -261,7 +261,7 @@ img{
 /* Slide dos "nossos clientes" */
 
 .clientes{
-    background:var(--gray);
+    background:transparent;
     padding: 70px 0;
 }
 
