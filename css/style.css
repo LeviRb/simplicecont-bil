@@ -785,5 +785,20 @@ img{
         gap:10px;
     }
 }
+@media (max-width: 768px) {
+    .nav-menu a {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
 
 }
