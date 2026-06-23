@@ -95,7 +95,7 @@ img{
     display:flex;
     width:300%;
     height:100%;
-    animation:slide 15s infinite;
+    animation:slide 7s infinite;
 }
 
 .slide{
