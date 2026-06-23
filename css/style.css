@@ -720,15 +720,17 @@ img{
     }
 
     .nav-menu{
-        flex-direction: line;
-        gap: 0;
-    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+}
 
     .nav-menu li{
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid rgba(255,255,255,.1);
-    }
+    width: auto;
+    flex-shrink: 0;
+}
 
     .slider{
         height: 180px;
