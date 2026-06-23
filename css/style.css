@@ -91,11 +91,11 @@ img{
     overflow:hidden;
 }
 
-.slides{
-    display:flex;
-    width:300%;
-    height:100%;
-    animation:slide 7s infinite;
+.slides {
+    display: flex;
+    width: 400%; /* Aumentado para 4 slides */
+    height: 100%;
+    animation: slide 20s infinite; /* Aumentado o tempo para ficar mais suave */
 }
 
 .slide{
@@ -108,23 +108,13 @@ img{
     object-fit:cover;
 }
 
-@keyframes slide{
+@keyframes slide {
+    0%, 20% { transform: translateX(0); }            /* Slide 1 */
+    25%, 45% { transform: translateX(-25%); }       /* Slide 2 */
+    50%, 70% { transform: translateX(-50%); }       /* Slide 3 */
+    75%, 95% { transform: translateX(-75%); }       /* Cópia do Slide 1 */
+    100% { transform: translateX(0); }              /* Reset instantâneo */
 
-    0%,30%{
-        transform:translateX(0);
-    }
-
-    35%,65%{
-        transform:translateX(-100%);
-    }
-
-    70%,95%{
-        transform:translateX(-200%);
-    }
-
-    100%{
-        transform:translateX(0);
-    }
 }
 
 .titulo{
