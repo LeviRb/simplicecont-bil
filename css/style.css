@@ -785,14 +785,5 @@ img{
         gap:10px;
     }
 }
-@media (max-width:768px){
-    .nav-menu{
-        gap:15px;
-        padding:10px;
-    }
 
-    .nav-menu a{
-        font-size:13px;
-    }
-}
 }
