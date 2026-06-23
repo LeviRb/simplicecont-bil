@@ -529,7 +529,7 @@ img{
 }
 
 .clientes-page{
-    background:#f2f2f2;
+    background:transparent;
     padding:50px 8%;
     min-height:100vh;
 }
