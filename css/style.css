@@ -720,19 +720,17 @@ img{
     }
 
     .nav-menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+}
 
-    .nav-menu li{
-        width: auto;
-        border-bottom: none;
-        text-align: center;
-    }
+.nav-menu li{
+    width: auto;
+    flex-shrink: 0;
+}
 
 
     .slider{
